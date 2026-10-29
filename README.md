@@ -19,11 +19,11 @@ Requirements: Node.js 20+, a MongoDB instance (local or Atlas).
 ```bash
 npm install
 cp .env.example .env.local   # set MONGODB_URI and JWT_SECRET
-npm run seed                 # optional: demo account with ~800 expenses
+npm run seed                 # optional, local dev only: demo account with ~800 expenses
 npm run dev                  # http://localhost:3000
 ```
 
-Demo login after seeding: `demo@ledgerly.app` / `demo1234`.
+New accounts always start empty. The seed script is only for local development (demo login: `demo@ledgerly.app` / `demo1234`) — don't run it against a production database.
 
 ## Scripts
 

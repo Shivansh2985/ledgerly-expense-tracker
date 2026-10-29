@@ -48,9 +48,6 @@ function Form() {
       <Button type="submit" loading={loading} className="w-full py-3.5 text-[15px]">
         Log in
       </Button>
-      <button type="button" onClick={() => setForm({ email: "demo@ledgerly.app", password: "demo1234" })} className="w-full rounded-2xl py-2 text-xs font-semibold text-brand-600 transition hover:bg-white/60">
-        Use demo account
-      </button>
     </form>
   );
 }
