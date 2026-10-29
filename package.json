@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed": "tsx --env-file=.env.local scripts/seed.ts",
+    "test": "tsx scripts/test-analytics.ts"
   },
   "dependencies": {
     "react": "^18",
