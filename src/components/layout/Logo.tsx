@@ -11,7 +11,7 @@ export function Logo({ href = "/" }: { href?: string }) {
         <span className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/30" />
       </span>
       <span className="font-display text-[19px] font-semibold tracking-tight text-ink">
-        Ledger<span className="text-brand-500">ly</span>
+        Khaa<span className="text-brand-500">ta</span>
       </span>
     </Link>
   );
